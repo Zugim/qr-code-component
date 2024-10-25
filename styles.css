@@ -23,7 +23,7 @@ body {
 }
 
 .container {
-  width: 320px;
+  max-width: 320px;
   height: 499px;
   padding: 16px 16px 40px 16px;
   border-radius: 20px;
