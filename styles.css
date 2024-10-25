@@ -15,7 +15,7 @@
   padding: 0;
 }
 
-body {
+main {
   display: grid;
   place-items: center;
   height: 100vh;
@@ -57,4 +57,21 @@ p {
   font-optical-sizing: auto;
   letter-spacing: 0.2px;
   color: var(--slate-500);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  padding-bottom: 16px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
